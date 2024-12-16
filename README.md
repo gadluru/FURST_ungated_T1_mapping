@@ -9,7 +9,6 @@ Le JV, Mendes JK, Sideris K, Bieging E, Carter S, Stehlik J, DiBella EVR, Adluru
 
 <br />
 <br />
-<br />
 
 <p align="center" width="60%">
     <img width="60%" src="https://github.com/user-attachments/assets/a0f06f99-a8e8-4e02-bf6a-44adf27cfc34">
@@ -18,14 +17,12 @@ Figure 4. (A) Correlation and (B) Bland-Altman plots for myocardial pre-contrast
 
 <br />
 <br />
-<br />
 
 <p align="center" width="60%">
     <img width="60%" src="https://github.com/user-attachments/assets/57e96603-7711-4206-91b3-405e1393a189">
 </p>
 Figure 6. Pre-contrast T1 mapping results of FURST using (A) an all-data reconstruction to produce a cardiac phase averaged T1 map, (B) a systolic binning reconstruction to produce a systolic T1 map, and (C) a diastolic binning reconstruction to produce a diastolic T1 map. The FURST averaged phase myocardial T1 was 1260±31 ms. There was no significant difference between FURST and MOLLI segment-wise systolic pre-contrast myocardial T1 (1170±35 ms and 1205±46 ms, respectively, p=0.12). There were significant differences between FURST and MOLLI segment-wise diastolic pre-contrast myocardial T1 (1322±61 ms and 1219±41 ms, respectively).
 
-<br />
 <br />
 <br />
 
