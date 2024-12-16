@@ -9,8 +9,8 @@ that require code changes to reduce memory requirements during certain function 
 <br />
 <br />
 
-<p align="center" width="50%">
-    <img width="50%" src="https://github.com/user-attachments/assets/402d192e-7522-4811-8d68-d7279923473c">
+<p align="center">
+    <src="https://github.com/user-attachments/assets/a0f06f99-a8e8-4e02-bf6a-44adf27cfc34">
 </p>
 Figure 4. (A) Correlation and (B) Bland-Altman plots for myocardial pre-contrast T1 mapping with FURST and MOLLI in 13 canine subjects and 7 human subjects. The FURST and MOLLI pre-contrast myocardial T1 were significantly different (1212±128 ms and 1179±87 ms, respectively). (C) Correlation and (D) Bland-Altman plots for myocardial post-contrast T1 mapping with FURST and MOLLI. The FURST and MOLLI post-contrast myocardial T1 were significantly different (508±97 ms and 516±92 ms, respectively). (E) Correlation and (F) Bland-Altman plots for ECV mapping with FURST and MOLLI. There was no significant difference between FURST and MOLLI myocardial ECV (29±11 % and 28±11 %, respectively, p=0.05). The ECV mean difference was 0.48, with 95% CI:(6.0×10^(-4),0.96). Each dot (n=296) represents an averaged T1 value for an AHA segment of the myocardium. 
 
