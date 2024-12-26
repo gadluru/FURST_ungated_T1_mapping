@@ -29,6 +29,13 @@ if isempty(dir([pwd,'/RawData/']))
     mkdir([pwd,'/RawData/']);
 end
 
+para.Recon.interp_method = 'GROG';
+if max(para.kSpace_info.phase_mod) > 0
+    para.Recon.type = 'separate SMS';
+else
+    para.Recon.type = '2D';
+end
+
 para.Recon.epsilon = eps('single');
 para.Recon.step_size = 2;
 para.Recon.break = 0;

@@ -169,10 +169,16 @@ for i=1:para.Recon.nset
         Data.kSpace = Data_all{i}.kSpace(:,:,n:n+patch_size-1,:,:,:,:);
         Data.mask = Data_all{i}.mask(:,:,n:n+patch_size-1,:,:,:,:);
         Data.first_est = Data_all{i}.first_est(:,:,n:n+patch_size-1,:,:);
-        Data.sms_filter = Data_all{i}.sms_filter(:,:,n:n+patch_size-1);
-        Data.ramp_filter = Data_all{i}.ramp_filter;
         Data.sens_map = Data_all{i}.sens_map;
-        Data.SMS = Data_all{i}.SMS;
+        if isfield(Data_all{i},'sms_filter')
+            Data.sms_filter = Data_all{i}.sms_filter(:,:,n:n+patch_size-1);
+        end
+        if isfield(Data_all{i},'ramp_filter')
+            Data.ramp_filter = Data_all{i}.ramp_filter;
+        end
+        if isfield(Data_all{i},'SMS')
+            Data.SMS = Data_all{i}.SMS;
+        end
 
         Image(:,:,n:n+patch_size-1,:,:) = Image(:,:,n:n+patch_size-1,:,:) + STCR_conjugate_gradient_IR(Data,para); clear Data
     end

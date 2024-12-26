@@ -87,7 +87,7 @@ switch para.Recon.type
             fidelity_update_temp(Data.mask) = fidelity_update;
             fidelity_update = gpuArray(fidelity_update_temp); clear fidelity_update_temp
 
-            if isfield(data,'ramp_filter')
+            if isfield(Data,'ramp_filter')
                 fidelity_update = bsxfun(@times,fidelity_update,Data.ramp_filter);
             end
             

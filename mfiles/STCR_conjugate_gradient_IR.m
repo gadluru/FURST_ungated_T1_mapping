@@ -60,7 +60,7 @@ if ifGPU
         Data.ramp_filter = gpuArray(Data.ramp_filter);
     end
     if isfield(Data,'sms_filter')
-        Data.ramp_filter = gpuArray(Data.ramp_filter);
+        Data.sms_filter = gpuArray(Data.sms_filter);
     end    
 end
 

@@ -3,7 +3,7 @@
 % This code performs the FURST reconstruction from the JMRI publication,
 % Le JV, Mendes JK, Sideris K, et al. J Magn Reson Imaging 2024. This code
 % was developed and tested on a RockLinux 8.6 operating system, with an AMD
-% EPYC Milan 7543 32 2.8GHz 258 MB cache, 512 GB RAM and Nvidia A100 gpus.
+% EPYC Milan 7543 32 2.8GHz 256 MB cache, 512 GB RAM and Nvidia A100 gpus.
 % Systems with ~64 GB RAM may encounter issues with insufficient memory 
 % that require code changes to reduce memory requirements during certain 
 % function calls.
@@ -37,9 +37,6 @@ for i=1:length(all_mat)
     load([para.dir.load_kSpace_dir,para.dir.load_kSpace_name])
 
     [nx,nr,nc] = size(kSpace);
-
-    para.Recon.interp_method = 'GROG';
-    para.Recon.type = 'separate SMS';
 
     para.Recon.kSpace_center = floor(nx/2)+1;
     para.over_sampling = 1;
